@@ -1,0 +1,14 @@
+<div class="search-container">
+    <h1 class="search-title">Search and book all destinations</h1>
+    <div class="bar-card">
+    <input type="text" placeholder="Search.." name="search" id="search" [(ngModel)]="searchString" />
+    </div>
+    <div class="services">
+        <h1>Our Services</h1>
+        <hr>
+        <div class="services-list-container">
+            <app-servce-card *ngFor="let card of arrayOfScards"
+            [Scard]="card"></app-servce-card>
+        </div>
+    </div>
+</div>

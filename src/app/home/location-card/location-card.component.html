@@ -1,0 +1,6 @@
+<div class="card-container">
+  <img *ngIf="displayImage" src="{{ card.imageUrl }}" />
+  <h3>{{ card.title }}</h3>
+  <p>{{ card.description }}</p>
+  <button (click)="subjectEmitCard()">View More</button>
+</div>

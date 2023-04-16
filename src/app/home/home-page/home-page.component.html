@@ -1,0 +1,12 @@
+<app-introduction></app-introduction>
+<app-searchbar></app-searchbar>
+<div class="popular-locations">
+  <h1>Most Popular</h1>
+  <div class="location-list-container">
+    <app-location-card
+      *ngFor="let card of arrayOfCards"
+      [card]="card"
+      (gameEmitter)="setReceivedGame($event)"
+    ></app-location-card>
+  </div>
+</div>

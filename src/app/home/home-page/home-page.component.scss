@@ -1,0 +1,20 @@
+hr{
+    border-bottom: 2px solid black;
+    min-width: 50vw;
+}
+  .location-list-container {
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    background-color: lightgrey;
+  }
+  .popular-locations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    color: cadetblue;
+    font-family: 'MyFont';
+  }
+

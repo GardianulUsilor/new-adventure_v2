@@ -1,0 +1,45 @@
+.main-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 100vw;
+    min-height: 90vh;
+    background-image: url("/assets/images/25094827728_aa9b2e1368_o.jpg");
+    background-size:cover;
+    padding: 10px;
+    font-family:'MyFont';
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.main-button  {
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+.main-button:hover{
+    background-color: darkturquoise;
+    cursor: pointer;
+}
+
+.title{
+    margin: 1px;
+}
+
+.subtitle{
+    margin:1px;
+}
+hr{
+    border-bottom: 2px solid white;
+    min-width: 50vw;
+}
